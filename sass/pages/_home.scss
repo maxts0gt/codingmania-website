@@ -1,5 +1,28 @@
 .section-about {
-    background-color: $color-grey-light-1;
-    padding: 25rem 0;
-    margin-top: -20vh;
+	background-color: $color-grey-light-1;
+	padding: 25rem 0;
+	margin-top: -20vh;
+}
+
+.section-features {
+	padding: 20rem 0;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba($color-primary-light, 0.938),
+			rgba($color-primary-dark, 0.966)
+		),
+		url('https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80');
+    background-size: cover;
+
+
+	transform: skewY(-7deg);
+	margin-top: -10rem;
+
+	& > * {
+		transform: skewY(7deg);
+	}
+
+
+
+
 }
